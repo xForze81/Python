@@ -50,12 +50,12 @@ while True:
         znachenie = input('¬ведите операцию: ')
     elif znachenie == '6':
         a = float(input('¬ведите число: '))
-        c = sqrt(a)
+        c = math.sqrt(a)
         print(c)
         znachenie = input('¬ведите операцию: ')
     elif znachenie == '7':
         a = float(input('¬ведите число: '))
-        c = factorial(a)
+        c = math.factorial(a)
         print(c)
         znachenie = input('¬ведите операцию: ')
     elif znachenie == '8':
